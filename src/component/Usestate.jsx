@@ -10,6 +10,7 @@ function usestate() {
     <>
       <h1>USE STATE {data}</h1>
       <button onClick={updateData}> update data</button>
+      <button oneClick={()=>setData("pn")}>update data12</button>
     </>
   );
 }
