@@ -5,6 +5,7 @@ import UseState1 from "./component/UseState1";
 import HideShowandToggle from "./component/HideShowandToggle";
 import Props from "./component/Props";
 import CssStyling from "./component/CssStyling";
+import Image from "./component/image";
 function App() {
   let data = "ravi"
   const[count,setCount] =useState(0)
@@ -15,7 +16,9 @@ function App() {
   {/* <HideShowandToggle/> */}
    {/* <Props d ={data} c={count}/>
    <button onClick={()=>setCount(count+1)}> update count </button> */}
-  <CssStyling/>
+  {/* <CssStyling/> */}
+  {/* <Image/> */}
+
 
 
 
