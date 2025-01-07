@@ -6,6 +6,9 @@ import HideShowandToggle from "./component/HideShowandToggle";
 import Props from "./component/Props";
 import CssStyling from "./component/CssStyling";
 import Image from "./component/image";
+import UseEffect from "./component/Hooks/UseEffect";
+import UseEffect1 from "./component/Hooks/UseEffect1";
+import DigitalClock from "./component/Hooks/DigitalClock";
 function App() {
   let data = "ravi"
   const[count,setCount] =useState(0)
@@ -18,7 +21,9 @@ function App() {
    <button onClick={()=>setCount(count+1)}> update count </button> */}
   {/* <CssStyling/> */}
   {/* <Image/> */}
-
+  {/* <UseEffect/> */}
+{/* <UseEffect1/> */}
+<DigitalClock/>
 
 
 
