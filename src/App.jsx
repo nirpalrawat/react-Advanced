@@ -9,6 +9,10 @@ import Image from "./component/image";
 import UseEffect from "./component/Hooks/UseEffect";
 import UseEffect1 from "./component/Hooks/UseEffect1";
 import DigitalClock from "./component/Hooks/DigitalClock";
+import ControlledandUncontrolled from "./component/Hooks/ControlledandUncontrolled";
+import IncrementDecrement from "./component/Hooks/IncrementDecrement";
+import PropDrilling from "./component/PropDrilling/PropDrilling";
+import ContextAPI from "./component/Hooks/ContextAPI/ContextAPI";
 function App() {
   let data = "ravi"
   const[count,setCount] =useState(0)
@@ -23,8 +27,12 @@ function App() {
   {/* <Image/> */}
   {/* <UseEffect/> */}
 {/* <UseEffect1/> */}
-<DigitalClock/>
+{/* <DigitalClock/> */}
+{/* <ControlledandUncontrolled/> */}
 
+{/* <IncrementDecrement/> */}
+{/* <PropDrilling/> */}
+<ContextAPI/>
 
 
   </>;
