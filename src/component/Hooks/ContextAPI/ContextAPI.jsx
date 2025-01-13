@@ -11,7 +11,9 @@ function ContextAPI() {
     <h1> ContextAPI</h1>
     <fname.Provider value={"pninfosys"}>
     <lname.Provider value={"gwalior"}>
+
         <ChildA/>
+        
         </lname.Provider>
         </fname.Provider>
     </>

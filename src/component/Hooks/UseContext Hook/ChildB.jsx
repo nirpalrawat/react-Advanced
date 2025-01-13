@@ -3,9 +3,9 @@ import ChildC from './ChildC'
 
 function ChildB() {
   return (
-    <> 
-    <ChildC/>
-    </>
+ <> 
+ <ChildC/>
+ </>
   )
 }
 
