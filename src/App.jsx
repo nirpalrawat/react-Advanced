@@ -13,6 +13,8 @@ import ControlledandUncontrolled from "./component/Hooks/ControlledandUncontroll
 import IncrementDecrement from "./component/Hooks/IncrementDecrement";
 import PropDrilling from "./component/PropDrilling/PropDrilling";
 import ContextAPI from "./component/Hooks/ContextAPI/ContextAPI";
+import Memo from "./component/Memo";
+import UseMemo from "./component/UseMemo";
 function App() {
   let data = "ravi"
   const[count,setCount] =useState(0)
@@ -32,7 +34,9 @@ function App() {
 
 {/* <IncrementDecrement/> */}
 {/* <PropDrilling/> */}
-<ContextAPI/>
+{/* <ContextAPI/> */}
+{/* <Memo/> */}
+<UseMemo/>
 
 
   </>;
