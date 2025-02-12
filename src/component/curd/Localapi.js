@@ -9,6 +9,10 @@ const axiosInstance = axios.create({
 
 //   student insert api
 export const createPost = (postData) => {
-    console.log(postData)
-    return axiosInstance.post('/insertuser', postData)
+    // console.log(postData)
+    return axiosInstance.post('/insertStudent', postData)
+}
+//   student display student
+export const displayStudent = () => {
+    return axiosInstance.get('/getalluser')
 }
