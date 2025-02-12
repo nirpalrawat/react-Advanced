@@ -15,6 +15,7 @@ import PropDrilling from "./component/PropDrilling/PropDrilling";
 import ContextAPI from "./component/Hooks/ContextAPI/ContextAPI";
 import Memo from "./component/Memo";
 import UseMemo from "./component/UseMemo";
+import Studentinsert from "./component/curd/Studentinsert";
 function App() {
   let data = "ravi"
   const[count,setCount] =useState(0)
@@ -36,8 +37,8 @@ function App() {
 {/* <PropDrilling/> */}
 {/* <ContextAPI/> */}
 {/* <Memo/> */}
-<UseMemo/>
-
+{/* <UseMemo/> */}
+<Studentinsert/>
 
   </>;
 }
