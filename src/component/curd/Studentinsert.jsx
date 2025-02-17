@@ -13,8 +13,7 @@ function Studentinsert() {
     useEffect(() => {
         displayStudent()
             .then((response) => {
-
-                console.log(response.data.user)
+                // console.log(response.data.users)
                 setPost(response.data.user);
 
             })
@@ -22,15 +21,15 @@ function Studentinsert() {
                 console.error("Error fetching posts:", error);
             });
     }, [])
-    console.log(post)
+    // console.log(post)
 
 
     const handleCreatePost = (e) => {
         e.preventDefault()
-         console.log(newpost)
+        // console.log(newpost)
         createPost(newpost)
             .then((response) => {
-                 console.log(response.data)
+                // console.log(response.data)
 
             })
             .catch((error) => {
@@ -66,10 +65,6 @@ function Studentinsert() {
                             <td>{index + 1}</td>
                             <td>{post.name}</td>
                             <td>{post.email}</td>
-                            <td >
-                                
-                            </td>
-
                         </tr>
                     ))}
                 </tbody>
